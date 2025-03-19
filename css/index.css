@@ -18,7 +18,9 @@ header {
 
 .profile-img {
     width: 150px;
+    height: 150px;
     border-radius: 50%;
+    object-fit: cover;
 }
 
 .menu-container {
@@ -30,8 +32,8 @@ header {
 
 .menu-button {
     display: inline-block;
-    padding: 20px 40px;
-    font-size: 24px;
+    padding: 20px 20px;
+    font-size: 20px;
     color: white;
     background-color: #059292;
     text-decoration: none;
@@ -41,5 +43,5 @@ header {
 
 .menu-button:hover {
     transform: scale(1.1);
-    background-color: #0056b3;
+    background-color: #046e6e;
 }

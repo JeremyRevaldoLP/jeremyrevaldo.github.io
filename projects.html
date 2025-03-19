@@ -7,16 +7,22 @@
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-    <header>
+    <header data-aos="fade-down">
         <h1>My Projects</h1>
     </header>
-    <div class="container">
+    <div class="container" data-aos="fade-up">
         <ul>
             <li><a href="https://jeremyrevaldolp.github.io/jeremyrevaldo.github.io/">Project 1 - Web CV</a></li>
             <li><a href="#">Project 2 - Toko Sigma PC</a></li>
             <li><a href="#">Project 3 - Passion Project</a></li>
         </ul>
-        <a href="index.html" class="menu-button">Back to Home</a>
+        <a href="index.html" class="menu-button" data-aos="zoom-in">Go Back</a>
     </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="script.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
