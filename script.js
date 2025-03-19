@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 function openImage(imageUrl) {
     const newWindow = window.open("", "_blank", "width=800,height=600");
+
     newWindow.document.write(`
         <html>
             <head>
