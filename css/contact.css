@@ -44,3 +44,124 @@
 .profile-img:hover {
     transform: scale(1.05);
 }
+
+/* Kontainer utama */
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Bagian Kontak */
+.contact-container {
+    background: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+#contact h2 {
+    text-align: center; 
+    margin-bottom: 20px; 
+}
+
+/* Formulir */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Label */
+label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Input & Textarea */
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Tombol Kirim */
+button {
+    margin-top: 15px;
+    padding: 10px;
+    background: #059292;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background: #007b7b;
+    transform: scale(1.05);
+}
+
+/* Email Card */
+.email-card {
+    display: flex;
+    align-items: center;
+    background: #f8f8f8;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: fit-content;
+    gap: 10px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Ikon kecil */
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
+/* Bagian Instagram & GitHub */
+.social-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.social-icon {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.1);
+}
+
+/* Profil Instagram/GitHub */
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Animasi */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.show {
+    display: block;
+    animation: fadeIn 0.5s ease-in-out;
+}

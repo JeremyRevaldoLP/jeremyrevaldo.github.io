@@ -45,3 +45,33 @@ header {
     transform: scale(1.1);
     background-color: #046e6e;
 }
+
+#pengalaman {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#pengalaman table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 2px solid #000000;
+}
+
+#pengalaman th, #pengalaman td {
+    padding: 10px;
+    border: 1px solid #000101;
+}
+
+#pengalaman th {
+    background-color: #03ad7a;
+    color: white;
+}
+
+#pengalaman tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#pengalaman tr:hover {
+    background-color: #d1f0f0;
+}
